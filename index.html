@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberPulse</title>
+    <link rel="icon" href="image\favicon\favicon.png">
+    <link rel="stylesheet" href="CSS\styles.css">
+</head>
+
+<body style="background-color: antiquewhite;">
+    <header>
+        <nav>
+            <div class="container">
+                <h1><big><i><u>Cyber Pulse</u></i></big></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contect.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container" id="blog-container">
+            <!-- Existing blog posts -->
+            <article class="blog-post">
+                <img src="image\Blog images\Java-Programming-Language.webp" alt="Post Image 1" width="500px"
+                    height="300px">
+                <h2>Starting with JAVA</h2>
+                <p class="post-meta">This will help you to learn JAVA from beginning Refrence from &#8594; JAVATPOINT
+                </p>
+                <p>Our core Java programming tutorial is designed for students and working professionals. Java is an
+                    object-oriented, class-based, concurrent, secured and general-purpose computer-programming language.
+                    It is a widely used robust technology</p>
+                <a href="https://www.javatpoint.com/java-tutorial" class="read-more">Read More</a>
+            </article>
+
+            <article class="blog-post">
+                <img src="image\Blog images\Full Stack.jpg" alt="Post Image 2" width="500" height="300">
+                <h2>Full-stack Web Developer</h2>
+                <p class="post-meta">All About Full Stack Web developer Refrence from &#8594; W3SCHOOL</p>
+                <p>
+                    A full-stack web developer is a person who can develop both client and server software.
+                </p>
+                <a href="https://www.w3schools.com/whatis/whatis_fullstack.asp" class="read-more">Read More</a>
+            </article>
+            <article class="blog-post">
+                <img src="image\Blog images\Python.png" alt="Post Image 3" width="500" height="300">
+                <h2>Python</h2>
+                <p class="post-meta">Python from 0 to Hero&#8594; W3SCHOOL</p>
+                <p>
+                    Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming
+                </p>
+                <a href="https://docs.python.org/3/" class="read-more">Read More</a>
+            </article>
+        </section>
+
+        <!-- Form to create a new post -->
+        <hr>
+        <form id="new-post-form">
+            <h2>Create a New Post</h2>
+            <label for="post-title">Title:</label>
+            <input type="text" id="post-title" required>
+            <label for="post-description">Description:</label>
+            <textarea id="post-description" required></textarea>
+            <label for="post-image">Upload Image:</label>
+            <input type="file" id="post-image" accept="image/*" required>
+            <button type="submit">Create Post</button>
+        </form>
+        <div style="color: darkgoldenrod;">
+            <p><b><i>Note &#8594; Image size of 300 * 300 is Recommended</i></b></p>
+        </div>
+    </main>
+<hr>
+    <footer>
+        <div class="container">
+            <p>&copy;[2023] @CyberPulse All rights reserved. </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
